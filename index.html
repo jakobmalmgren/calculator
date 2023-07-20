@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>calc</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="calc-wrapper">
+      <input type="text" id="output" />
+      <button class="allclear" onclick="clr()">AC</button>
+      <button class="delete" onclick="del()">DEL</button>
+      <button class="divide" onclick="calculate('/')">/</button>
+      <button class="number" onclick="calculate(1)">1</button>
+      <button class="number" onclick="calculate(2)">2</button>
+      <button class="number" onclick="calculate(3)">3</button>
+      <button class="times" onclick="calculate('*')">*</button>
+      <button class="number" onclick="calculate(4)">4</button>
+      <button class="number" onclick="calculate(5)">5</button>
+      <button class="number" onclick="calculate(6)">6</button>
+      <button class="plus" onclick="calculate('+')">+</button>
+      <button class="number" onclick="calculate(7)">7</button>
+      <button class="number" onclick="calculate(8)">8</button>
+      <button class="number" onclick="calculate(9)">9</button>
+      <button class="minus" onclick="calculate('-')">-</button>
+      <button class="dot" onclick="calculate('.')">.</button>
+      <button class="number" onclick="calculate(0)">0</button>
+      <button class="result" onclick="res()">=</button>
+    </div>
+  </body>
+  <script src="/index.js"></script>
+</html>
